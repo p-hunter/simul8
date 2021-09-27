@@ -16,6 +16,6 @@ rerlang <- function(n, shape, rate = 1, scale = 1 / rate) {
   
   u <- lapply(rep(1, n), function(i) runif(i, 0, 1))
   
-  -scale * log(unlist(lapply(u, sum)))
+  -scale * log(unlist(lapply(u, prod)))
   
 }
