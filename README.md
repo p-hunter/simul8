@@ -1,2 +1,2 @@
 # simul8
-R integration with Simul8 software
+For R integrations with Simul8 software, plus some functions for stochastic processes.
