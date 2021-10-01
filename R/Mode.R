@@ -1,4 +1,4 @@
-Mode <- function(x {
+Mode <- function(x) {
   
 
   # This is only for univariate modes
